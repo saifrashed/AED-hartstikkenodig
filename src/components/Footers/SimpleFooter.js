@@ -57,7 +57,7 @@ class SimpleFooter extends React.Component {
 
                                     >
                                         AED HartstikkeNodig
-                                    </a>. Gemaakt door <a className="text-success" href="https://vorm.tech" target="_blank">Vorm Technologies</a>
+                                    </a>.
 
                                 </div>
                             </Col>

@@ -40,7 +40,7 @@ class Article extends React.Component {
             <>
                 <PageHeader title={"Artikel"}/>
 
-                {/*<main ref="main">*/}
+                <main ref="main">
                     {/*<div className="position-relative">*/}
                         {/*/!* shape Hero *!/*/}
                         {/*<section className="section section-lg section-shaped pb-250">*/}
@@ -852,7 +852,7 @@ class Article extends React.Component {
                         {/*</Container>*/}
                     {/*</section>*/}
                     {/*<Download/>*/}
-                {/*</main>*/}
+                </main>
                 <CardsFooter/>
             </>
         );

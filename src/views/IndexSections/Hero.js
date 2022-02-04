@@ -27,7 +27,8 @@ class Hero extends React.Component {
                     {/* Hero for FREE version */}
                     <section className="section section-hero section-shaped">
                         {/* Background circles */}
-                        <div className="shape shape-style-1 shape-default" style={{background: "linear-gradient(150deg, #2dce89 15%, #2dce89 70%, #2dce89 94%)"}}>
+                        <div className="shape shape-style-1 shape-default"
+                             style={{background: "linear-gradient(150deg, #2dce89 15%, #2dce89 70%, #2dce89 94%)"}}>
                             <span className="span-150"/>
                             <span className="span-50"/>
                             <span className="span-50"/>
@@ -50,7 +51,8 @@ class Hero extends React.Component {
                                             style={{width: "200px"}}
                                         />
                                         <p className="lead text-white">
-                                            De Stichting AED HartstikkeNodig Wijk bij Duurstede beheert en onderhoudt het
+                                            De Stichting AED HartstikkeNodig Wijk bij Duurstede beheert en onderhoudt
+                                            het
                                             netwerk van burgerhulpverleners en publiek beschikbare AED's in de gemeente
                                             Wijk bij Duurstede, in samenwerking met de ambulancedienst RAVU, de gemeente
                                             Wijk bij Duurstede en het oproepsysteem HartslagNu . Wij werken op basis van

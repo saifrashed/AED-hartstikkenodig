@@ -23,7 +23,7 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import Index from "views/Index.js";
+import Landing from "views/Landing.js";
 import Courses from "views/Courses.js";
 import Article from "views/Article.js";
 import Contact from "views/Contact.js";
@@ -31,7 +31,7 @@ import Contact from "views/Contact.js";
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
-            <Route path="/" exact render={props => <Index {...props} />}/>
+            <Route path="/" exact render={props => <Landing {...props} />}/>
             <Route
                 path="/cursussen"
                 exact

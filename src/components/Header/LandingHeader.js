@@ -52,6 +52,7 @@ class LandingHeader extends React.Component {
                                 <Button
                                     className="btn-white mt-4"
                                     color="default"
+                                    target={"_blank"}
                                     href="https://nl-nl.facebook.com/AEDHarstikkeNodig"
                                 >
                                     Zie ons op Facebook

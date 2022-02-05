@@ -29,7 +29,7 @@ class Landing extends React.Component {
                             <Row className="row-grid justify-content-center">
                                 <Col className="text-center" lg="12">
                                     <h2 className="display-3">
-                                        Welkom
+                                        Wat doet AED HartstikkeNodig
                                     </h2>
                                     <p className="lead">
                                         De Stichting AED HartstikkeNodig Wijk bij Duurstede beheert en onderhoudt het

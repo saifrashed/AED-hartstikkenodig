@@ -2,111 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c977fe-cd19-4f15-a234-970f9d45cd92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/logo_dark.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/argon-react-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/brand/logo_light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/argon-react.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/creativetim-white-slim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/brand/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/icons/common/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/icons/common/google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/ill/ill-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/img-1-1200x1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/img-2-1200x1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/medicine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/theme/medicine.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-1-800x800 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-1-800x800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-2-800x800 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-2-800x800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-3-800x800 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-3-800x800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-4-800x800 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/theme/team-4-800x800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/avatar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/clipboard-js.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/clipboard-js.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/component-examples.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/component-examples.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/prism.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/prism.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/docs/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/mixins/popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/separator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/floating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/floating.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/helper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/transform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/utilities/transform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/_bootstrap-datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/_bootstrap-datepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/datetimepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/datetimepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/headroom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/headroom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/nouislider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/nouislider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/custom/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/custom/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/custom/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/custom/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/custom/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/custom/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/custom/_separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/custom/_separator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/custom/vendor/_react-datetime.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/custom/vendor/_react-datetime.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/react-differences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/react/react-differences.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vendor/nucleo/css/nucleo-svg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vendor/nucleo/css/nucleo-svg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vendor/nucleo/css/nucleo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vendor/nucleo/css/nucleo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vendor/nucleo/fonts/nucleo-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vendor/nucleo/fonts/nucleo-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/LandingHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/LandingHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/PageHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/PageHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Courses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Landing.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,31 +14,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header/MainMenu.js">
+        <entry file="file://$PROJECT_DIR$/src/views/Landing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#699#812#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///private/var/folders/sv/hm31tysx0cd285m4v21g1jr40000gn/T/fz3temp-2/.htaccess">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/PageHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/LandingHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="262">
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+              <folding>
+                <element signature="e#699#776#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,11 +93,9 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/views/Article.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/LandingHeader.js" />
         <option value="$PROJECT_DIR$/src/components/Header/PageHeader.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/headroom.scss" />
-        <option value="$PROJECT_DIR$/src/views/Landing.js" />
         <option value="$PROJECT_DIR$/src/views/Contact.js" />
         <option value="$PROJECT_DIR$/src/views/Courses.js" />
         <option value="$PROJECT_DIR$/src/components/Footers/index.js" />
@@ -209,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/components/Header/MainMenu.js" />
         <option value="/private/var/folders/sv/hm31tysx0cd285m4v21g1jr40000gn/T/fz3temp-2/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/src/views/Landing.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/LandingHeader.js" />
       </list>
     </option>
   </component>
@@ -232,6 +128,30 @@
             <path>
               <item name="AED_hartstikkenodig" type="b2602c69:ProjectViewProjectNode" />
               <item name="AED_hartstikkenodig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AED_hartstikkenodig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AED_hartstikkenodig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AED_hartstikkenodig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AED_hartstikkenodig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AED_hartstikkenodig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AED_hartstikkenodig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AED_hartstikkenodig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AED_hartstikkenodig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,12 +208,12 @@
       <workItem from="1638829063092" duration="202000" />
       <workItem from="1643847470644" duration="1833000" />
       <workItem from="1643936125417" duration="269000" />
-      <workItem from="1643972619303" duration="6160000" />
+      <workItem from="1643972619303" duration="6411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24565000" />
+    <option name="totallyTimeSpent" value="24816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -470,37 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/LandingHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-          <folding>
-            <element signature="e#699#776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/PageHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#699#812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/argon-design-system/vendor/headroom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -555,6 +448,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///private/var/folders/sv/hm31tysx0cd285m4v21g1jr40000gn/T/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/MainMenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -565,17 +465,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/sv/hm31tysx0cd285m4v21g1jr40000gn/T/fz3temp-2/.htaccess">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/src/views/Landing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="442">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/PageHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/LandingHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <element signature="e#699#776#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

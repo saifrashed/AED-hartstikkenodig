@@ -1,18 +1,18 @@
 .floating {
-	animation: floating 3s ease infinite;
-	will-change: transform;
+    animation: floating 3s ease infinite;
+    will-change: transform;
 
-	&:hover {
+    &:hover {
         animation-play-state: paused;
     }
 }
 
 .floating-lg {
-	animation: floating-lg 3s ease infinite;
+    animation: floating-lg 3s ease infinite;
 }
 
 .floating-sm {
-	animation: floating-sm 3s ease infinite;
+    animation: floating-sm 3s ease infinite;
 }
 
 // Keyframes

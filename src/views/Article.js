@@ -6,7 +6,7 @@ import {CardImg, Col, Container, Row} from "reactstrap";
 import ReactGA from "react-ga";
 // index page sections
 import PageHeader from '../components/Header/PageHeader';
-import SimpleFooter from "../components/Footers";
+import Footer from "../components/Footers";
 
 class Article extends React.Component {
     state = {};
@@ -133,7 +133,7 @@ class Article extends React.Component {
                         </Row>
                     </Container>
                 </main>
-                <SimpleFooter/>
+                <Footer/>
             </>
         );
     }

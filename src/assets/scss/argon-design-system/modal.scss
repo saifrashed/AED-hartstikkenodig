@@ -4,7 +4,7 @@
         border-radius: $modal-content-border-radius;
     } @else {
         border-radius: 0;
-    }  
+    }
 }
 
 
@@ -13,6 +13,7 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+
     .modal-content {
         border-radius: 0;
     }

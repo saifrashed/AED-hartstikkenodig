@@ -32,12 +32,12 @@
     overflow: hidden;
 
     &.section-hero {
-      &:before {
-        top: 680px;
-      }
+        &:before {
+            top: 680px;
+        }
     }
 
-    .stars-and-coded{
+    .stars-and-coded {
         margin-top: 8rem;
     }
 
@@ -52,7 +52,7 @@
             position: absolute;
         }
 
-        +.container {
+        + .container {
             position: relative;
             // padding-top: 6rem;
             // padding-bottom: 0rem;
@@ -61,7 +61,7 @@
 
         &.shape-skew {
 
-            +.container {
+            + .container {
                 padding-top: 0;
 
                 .col {
@@ -93,19 +93,19 @@
             background: shapes-primary-color("span-1-bg");
         }
 
-         :nth-child(2) {
+        :nth-child(2) {
             background: shapes-primary-color("span-2-bg");
         }
 
-         :nth-child(3) {
+        :nth-child(3) {
             background: shapes-primary-color("span-3-bg");
         }
 
-         :nth-child(4) {
+        :nth-child(4) {
             background: shapes-primary-color("span-4-bg");
         }
 
-         :nth-child(5) {
+        :nth-child(5) {
             background: shapes-primary-color("span-5-bg");
         }
     }
@@ -113,23 +113,23 @@
     .shape-default {
         background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
 
-         :nth-child(1) {
+        :nth-child(1) {
             background: shapes-default-color("span-1-bg");
         }
 
-         :nth-child(2) {
+        :nth-child(2) {
             background: shapes-default-color("span-2-bg");
         }
 
-         :nth-child(3) {
+        :nth-child(3) {
             background: shapes-default-color("span-3-bg");
         }
 
-         :nth-child(4) {
+        :nth-child(4) {
             background: shapes-default-color("span-4-bg");
         }
 
-         :nth-child(5) {
+        :nth-child(5) {
             background: shapes-default-color("span-5-bg");
         }
     }
@@ -137,23 +137,23 @@
     .shape-light {
         background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
 
-         :nth-child(1) {
+        :nth-child(1) {
             background: shapes-light-color("span-1-bg");
         }
 
-         :nth-child(2) {
+        :nth-child(2) {
             background: shapes-light-color("span-2-bg");
         }
 
-         :nth-child(3) {
+        :nth-child(3) {
             background: shapes-light-color("span-3-bg");
         }
 
-         :nth-child(4) {
+        :nth-child(4) {
             background: shapes-light-color("span-4-bg");
         }
 
-         :nth-child(5) {
+        :nth-child(5) {
             background: shapes-light-color("span-5-bg");
         }
     }
@@ -161,23 +161,23 @@
     .shape-dark {
         background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
 
-         :nth-child(1) {
+        :nth-child(1) {
             background: shapes-dark-color("span-1-bg");
         }
 
-         :nth-child(2) {
+        :nth-child(2) {
             background: shapes-dark-color("span-2-bg");
         }
 
-         :nth-child(3) {
+        :nth-child(3) {
             background: shapes-dark-color("span-3-bg");
         }
 
-         :nth-child(4) {
+        :nth-child(4) {
             background: shapes-dark-color("span-4-bg");
         }
 
-         :nth-child(5) {
+        :nth-child(5) {
             background: shapes-dark-color("span-5-bg");
         }
     }
@@ -320,32 +320,32 @@
             height: 100px;
         }
 
-         :nth-child(1) {
+        :nth-child(1) {
             width: 33.33333%;
             top: 0;
             left: -16.66666%;
         }
 
-         :nth-child(2) {
+        :nth-child(2) {
             width: 33.33333%;
             top: 0;
             left: 16.66666%;
             right: auto;
         }
 
-         :nth-child(3) {
+        :nth-child(3) {
             width: 33.33333%;
             left: 49.99999%;
             bottom: auto;
         }
 
-         :nth-child(4) {
+        :nth-child(4) {
             width: 33.33333%;
             top: 55%;
             right: -16.66666%;
         }
 
-         :nth-child(5) {
+        :nth-child(5) {
             width: 33.33333%;
             bottom: 0;
         }
@@ -448,7 +448,7 @@
     }
 }
 
-@media (min-width:670px) {
+@media (min-width: 670px) {
     .device-ill {
         flex-wrap: wrap;
         width: 512px;
@@ -468,7 +468,7 @@
     }
 }
 
-@media (min-width:880px) {
+@media (min-width: 880px) {
     .device-ill {
         width: 829px;
         margin-left: -10px;
@@ -502,17 +502,17 @@
 
 // Components section (for demo)
 .section-components {
-    >.form-control {
-        +.form-control {
+    > .form-control {
+        + .form-control {
             margin-top: .5rem;
         }
     }
 
-    >.nav+.nav,
-    >.alert+.alert,
-    >.navbar+.navbar,
-    >.progress+.progress,
-    >.progress+.btn,
+    > .nav + .nav,
+    > .alert + .alert,
+    > .navbar + .navbar,
+    > .progress + .progress,
+    > .progress + .btn,
     .badge,
     .btn {
         margin-top: .5rem;
@@ -522,6 +522,7 @@
     .btn-group {
         margin-top: .5rem;
         margin-bottom: .5rem;
+
         .btn {
             margin: 0;
         }
@@ -530,7 +531,7 @@
     .alert {
         margin: 0;
 
-        +.alert {
+        + .alert {
             margin-top: 1.25rem;
         }
     }

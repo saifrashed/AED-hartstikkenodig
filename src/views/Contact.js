@@ -5,7 +5,7 @@ import {Col, Container, FormGroup, Input, Row} from "reactstrap";
 // core components
 import ReactGA from "react-ga";
 // index page sections
-import SimpleFooter from "../components/Footers";
+import Footer from "../components/Footers";
 import PageHeader from '../components/Header/PageHeader';
 import emailjs from '@emailjs/browser';
 import Button from "reactstrap/es/Button";
@@ -26,9 +26,9 @@ class Contact extends React.Component {
     }
 
     componentDidMount() {
-        document.documentElement.scrollTop  = 0;
+        document.documentElement.scrollTop = 0;
         document.scrollingElement.scrollTop = 0;
-        this.refs.main.scrollTop            = 0;
+        this.refs.main.scrollTop = 0;
 
         ReactGA.initialize("G-N3XDQG32HE");
         ReactGA.pageview(window.location.pathname + window.location.search);
@@ -38,10 +38,10 @@ class Contact extends React.Component {
     sendEmail = (e) => {
         e.preventDefault();
 
-        console.log(this.state)
+        console.log(this.state);
 
-        for(var key in this.state) {
-            if(this.state[key] === "") {
+        for (var key in this.state) {
+            if (this.state[key] === "") {
                 return false;
             }
         }
@@ -81,56 +81,71 @@ class Contact extends React.Component {
             <>
                 <PageHeader title={"Contact"}/>
                 <main ref="main">
-
                     <div className="py-5">
                         <section className="section section-lg">
                             <Container>
-                                <Row>
-                                    <Col className="mb-5 mb-lg-0" lg="4" md="6">
-                                        <div className="px-4">
-                                            <div className="pt-4 text-center">
-                                                <h5 className="title">
-                                                    <span
-                                                        className="d-block mb-1">Stichting, Cursussen, Aanmeldingen...</span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col className="mb-5 mb-lg-0" lg="4" md="6">
-                                        <div className="px-4">
-                                            <div className="pt-4 text-center">
-                                                <h5 className="title">
-                                                    <span className="d-block mb-1">AED's, kasten, onderhoud...</span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col className="mb-5 mb-lg-0" lg="4" md="6">
-                                        <div className="px-4">
-                                            <div className="pt-4 text-center">
-                                                <h5 className="title">
-                                                    <span className="d-block mb-1">Subside, donaties, giften...</span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                                <Row className="justify-content-center text-center mt-lg">
-                                    <Col lg="8">
-                                        <p className="lead text-muted">
-                                            De beschikking voor een ANBI status van de Stichting AED HartstikkeNodig is
-                                            in aanvraag.
-                                            Dit betekent dat wij over onze ontvangen schenkingen geen belasting hoeven
-                                            te betalen. Ook als schenker kunt u profiteren van belastingvoordeel.
-                                        </p>
-                                    </Col>
-                                </Row>
+                                {/*<Row>*/}
+                                {/*<Col className="mb-5 mb-lg-0" lg="4" md="6">*/}
+                                {/*<div className="px-4">*/}
+                                {/*<div className="pt-4 text-center">*/}
+                                {/*<h5 className="title">*/}
+                                {/*<span*/}
+                                {/*className="d-block mb-1">Stichting, Cursussen, Aanmeldingen...</span>*/}
+                                {/*</h5>*/}
+                                {/*</div>*/}
+                                {/*</div>*/}
+                                {/*</Col>*/}
+                                {/*<Col className="mb-5 mb-lg-0" lg="4" md="6">*/}
+                                {/*<div className="px-4">*/}
+                                {/*<div className="pt-4 text-center">*/}
+                                {/*<h5 className="title">*/}
+                                {/*<span className="d-block mb-1">AED's, kasten, onderhoud...</span>*/}
+                                {/*</h5>*/}
+                                {/*</div>*/}
+                                {/*</div>*/}
+                                {/*</Col>*/}
+                                {/*<Col className="mb-5 mb-lg-0" lg="4" md="6">*/}
+                                {/*<div className="px-4">*/}
+                                {/*<div className="pt-4 text-center">*/}
+                                {/*<h5 className="title">*/}
+                                {/*<span className="d-block mb-1">Subside, donaties, giften...</span>*/}
+                                {/*</h5>*/}
+                                {/*</div>*/}
+                                {/*</div>*/}
+                                {/*</Col>*/}
+                                {/*</Row>*/}
+                                {/*<Row className="justify-content-center text-center mt-lg">*/}
+                                {/*<Col lg="8">*/}
+                                {/*<p className="lead text-muted">*/}
+                                {/*De beschikking voor een ANBI status van de Stichting AED HartstikkeNodig is*/}
+                                {/*in aanvraag.*/}
+                                {/*Dit betekent dat wij over onze ontvangen schenkingen geen belasting hoeven*/}
+                                {/*te betalen. Ook als schenker kunt u profiteren van belastingvoordeel.*/}
+                                {/*</p>*/}
+                                {/*</Col>*/}
+                                {/*</Row>*/}
 
                                 <Row className="justify-content-center text-center mt-lg">
                                     <Col lg="8">
                                         <h2 className="display-3">
-                                            Neem contact
+                                            Neem contact op
                                         </h2>
+
+
+                                        <p className="lead text-muted">
+                                            Indien u wilt inschrijven voor een cursus kunt u bij het invullen van de
+                                            contactformulier aangeven welke cursus dit betreft.
+                                            Als u een vraag heeft kunt u deze optie overslaan.
+                                        </p>
+
+                                        {/*<p className="lead text-muted">*/}
+                                        {/*De beschikking voor een ANBI status van de Stichting AED HartstikkeNodig is*/}
+                                        {/*in aanvraag.*/}
+                                        {/*Dit betekent dat wij over onze ontvangen schenkingen geen belasting hoeven*/}
+                                        {/*te betalen. Ook als schenker kunt u profiteren van belastingvoordeel.*/}
+                                        {/*</p>*/}
+
+
                                         <FormGroup>
                                             <Input
                                                 className="form-control-alternative"
@@ -190,7 +205,8 @@ class Contact extends React.Component {
                                                 }}
                                             >
                                                 <option value={"GEEN"}>Betreffende cursus (niet verplicht)</option>
-                                                <option value={"BASIS LIFE SUPPORT (BLS)"}>BASIS LIFE SUPPORT (BLS)</option>
+                                                <option value={"BASIS LIFE SUPPORT (BLS)"}>BASIS LIFE SUPPORT (BLS)
+                                                </option>
                                                 <option value={"KINDER REANIMATIE"}>KINDER REANIMATIE</option>
                                                 <option value={"HERHALINGSLESSEN"}>HERHALINGSLESSEN</option>
                                             </Input>
@@ -218,9 +234,7 @@ class Contact extends React.Component {
                             </Container>
                         </section>
                     </div>
-
-
-                    <SimpleFooter/>
+                    <Footer/>
                 </main>
             </>
         );

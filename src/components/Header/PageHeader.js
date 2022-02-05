@@ -18,8 +18,7 @@
 /*eslint-disable*/
 import React from "react";
 // reactstrap components
-import {Col, Container, Nav, Navbar, NavbarBrand, NavItem, NavLink, Row, UncontrolledCollapse} from "reactstrap";
-import {Link} from "react-router-dom";
+import {Col, Container, Row} from "reactstrap";
 import MainMenu from './MainMenu'
 
 class PageHeader extends React.Component {
@@ -28,16 +27,17 @@ class PageHeader extends React.Component {
             <>
                 <MainMenu/>
                 <section className="section section-shaped">
-                    <div className="shape shape-style-1 shape-default" style={{background: "linear-gradient(150deg, #2dce89 15%, #2dce89 70%, #2dce89 94%)"}}>
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
+                    <div className="shape shape-style-1 shape-default"
+                         style={{background: "linear-gradient(150deg, #2dce89 15%, #2dce89 70%, #2dce89 94%)"}}>
+                        <span/>
+                        <span/>
+                        <span/>
+                        <span/>
+                        <span/>
+                        <span/>
                     </div>
                     <Container className="py-md">
-                        <Row className="justify-content-between align-items-center">
+                        <Row className="justify-content-between align-items-center" style={{zIndex: "0"}}>
                             <Col className="mb-12 mb-lg-0" lg="12">
                                 <h1 className="text-white font-weight-light">
                                     {this.props.title}
@@ -55,7 +55,7 @@ class PageHeader extends React.Component {
                             x="0"
                             y="0"
                         >
-                            <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+                            <polygon className="fill-white" points="2560 0 2560 100 0 100"/>
                         </svg>
                     </div>
                 </section>

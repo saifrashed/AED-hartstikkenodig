@@ -16,7 +16,7 @@ label {
 
     &.is-valid,
     &.is-invalid {
-      background-image: none;
+        background-image: none;
     }
 }
 
@@ -24,19 +24,19 @@ label {
 /* Textareas */
 
 textarea[resize="none"] {
-    resize: none!important;
+    resize: none !important;
 }
 
 textarea[resize="both"] {
-    resize: both!important;
+    resize: both !important;
 }
 
 textarea[resize="vertical"] {
-    resize: vertical!important;
+    resize: vertical !important;
 }
 
 textarea[resize="horizontal"] {
-    resize: horizontal!important;
+    resize: horizontal !important;
 }
 
 
@@ -48,94 +48,96 @@ textarea[resize="horizontal"] {
     box-shadow: none;
 
     &:focus {
-      background-color: $input-muted-bg;
+        background-color: $input-muted-bg;
     }
 }
 
 .form-control-alternative {
-  box-shadow: $input-alternative-box-shadow;
-  border: 0;
-  transition: box-shadow .15s ease;
+    box-shadow: $input-alternative-box-shadow;
+    border: 0;
+    transition: box-shadow .15s ease;
 
-  &:focus {
-    box-shadow: $input-focus-alternative-box-shadow;
-  }
+    &:focus {
+        box-shadow: $input-focus-alternative-box-shadow;
+    }
 }
 
 // Sizes
 
 .form-control-lg {
-  font-size: $font-size-base;
+    font-size: $font-size-base;
 }
 
 // Validation
 
 .has-success,
 .has-danger {
-  position: relative;
+    position: relative;
 
-  &:after {
-    width: 19px;
-    height: 19px;
-    line-height: 19px;
-    text-align: center;
-    font-family: 'NucleoIcons';
-    display: inline-block;
-    position: absolute;
-    right: 15px;
-    top: 2px;
-    transform: translateY(50%);
-    border-radius: 50%;
-    font-size: 9px;
-    opacity: 1;
-  }
-
-  .form-control-alternative {
-    &.is-valid,
-    &.is-invalid {
-      &:focus {
-        box-shadow: $input-focus-alternative-box-shadow !important;
-      }
+    &:after {
+        width: 19px;
+        height: 19px;
+        line-height: 19px;
+        text-align: center;
+        font-family: 'NucleoIcons';
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 2px;
+        transform: translateY(50%);
+        border-radius: 50%;
+        font-size: 9px;
+        opacity: 1;
     }
-  }
+
+    .form-control-alternative {
+        &.is-valid,
+        &.is-invalid {
+            &:focus {
+                box-shadow: $input-focus-alternative-box-shadow !important;
+            }
+        }
+    }
 }
 
 .has-success {
-  &:after {
-    content: "\ea26";
-    color: daken($form-feedback-valid-color, 18%);
-    background-color: $form-feedback-valid-bg;
-  }
-  .form-control {
-    background-color: $input-focus-bg;
-
-    &:focus {
-      border-color: $input-focus-border-color;
+    &:after {
+        content: "\ea26";
+        color: daken($form-feedback-valid-color, 18%);
+        background-color: $form-feedback-valid-bg;
     }
 
-    // Placeholder
-    &::placeholder {
-      color: $form-feedback-valid-color;
+    .form-control {
+        background-color: $input-focus-bg;
+
+        &:focus {
+            border-color: $input-focus-border-color;
+        }
+
+        // Placeholder
+        &::placeholder {
+            color: $form-feedback-valid-color;
+        }
     }
-  }
 }
 
 .has-danger {
     &:after {
-      content: "\ea53";
-      color: daken($form-feedback-invalid-color, 18%);
-      background-color: $form-feedback-invalid-bg;
+        content: "\ea53";
+        color: daken($form-feedback-invalid-color, 18%);
+        background-color: $form-feedback-invalid-bg;
     }
+
     .form-control {
-      background-color: $input-focus-bg;
+        background-color: $input-focus-bg;
 
-      &:focus {
-        border-color: $input-focus-border-color;
-      }
+        &:focus {
+            border-color: $input-focus-border-color;
+        }
 
-      // Placeholder
-      &::placeholder {
-        color: $form-feedback-invalid-color;
-      }
+        // Placeholder
+        &::placeholder {
+            color: $form-feedback-invalid-color;
+        }
     }
 }

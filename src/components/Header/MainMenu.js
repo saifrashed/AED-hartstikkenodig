@@ -21,18 +21,19 @@ import React from "react";
 import {Col, Container, Nav, Navbar, NavbarBrand, NavItem, NavLink, Row, UncontrolledCollapse} from "reactstrap";
 import {Link} from "react-router-dom";
 
+
 class MainMenu extends React.Component {
     render() {
         return (
             <>
                 <header className="header-global">
-                    <Navbar className="navbar-dark bg-success navbar-light headroom" expand="lg">
+                    <Navbar className="navbar-dark bg-success navbar-light" expand="lg">
                         <Container>
                             <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                                 <img
                                     alt="..."
                                     style={{height: 75}}
-                                    src={require("assets/img/brand/argon-react-white.png")}
+                                    src={require("assets/img/brand/logo_light.png")}
                                 />
                             </NavbarBrand>
                             <button className="navbar-toggler" id="navbar-success">
@@ -45,7 +46,7 @@ class MainMenu extends React.Component {
                                             <Link to="/">
                                                 <img
                                                     alt="..."
-                                                    src={require("assets/img/brand/argon-react.png")}
+                                                    src={require("assets/img/brand/logo_dark.png")}
                                                 />
                                             </Link>
                                         </Col>

@@ -4,7 +4,7 @@ import {Badge, Button, Col, Container, Row} from "reactstrap";
 // core components
 import ReactGA from "react-ga";
 // index page sections
-import SimpleFooter from "../components/Footers";
+import Footer from "../components/Footers";
 import LandingHeader from '../components/Header/LandingHeader';
 
 
@@ -35,16 +35,21 @@ class Landing extends React.Component {
                                         De Stichting AED HartstikkeNodig Wijk bij Duurstede beheert en onderhoudt het
                                         netwerk van burgerhulpverleners en publiek beschikbare AED's in de gemeente Wijk
                                         bij Duurstede, in samenwerking met de ambulancedienst RAVU, de gemeente Wijk bij
-                                        Duurstede en het oproepsysteem HartslagNu . Wij werken op basis van een
-                                        overeenkomst met de gemeente Wijk bij Duursted en de ambulancedienst. Onze
-                                        burgerhulpverleners worden via de 112-meldkamer ambulancezorg opgeroepen. Wij
+                                        Duurstede en het oproepsysteem HartslagNu.
+                                        <br/><br/>
+                                        Wij werken op basis van een overeenkomst met de gemeente Wijk bij Duurstede en
+                                        de ambulancedienst.
+                                        Onze burgerhulpverleners worden via de 112-meldkamer ambulancezorg opgeroepen.
+                                        Wij
                                         zijn een burgerinitiatief met een structurele subsidie van de gemeente Wijk bij
                                         Duurstede. Ons doel is heel Wijk bij Duurstedt Hartveilig te maken. Dit doen we
                                         door er naar te streven dat overal in Wijk bij Duurstede en het grote
                                         buitengebied van onze gemeente binnen 6 minuten (zgn. 6-minutenzones) na een
                                         112-melding van een hartstilstand onze burgerhulpverleners met de reanimatie
                                         beginnen en een AED aansluiten. Hiermee overbruggen wij de tijd tussen de
-                                        112-melding en de aankomst van de eerste ambulance. Wij doen dit samen met de
+                                        112-melding en de aankomst van de eerste ambulance.
+                                        <br/><br/>
+                                        Wij doen dit samen met de
                                         first responders van brandweer en politie. Vaak zijn onze burgerhulpverleners
                                         als eerste ter plaatse omdat ze letterlijk om de hoek bij het slachtoffer
                                         aanwezig zijn als de oproep van de 112- meldkamer (via HartslagNu) komt. Zo
@@ -364,7 +369,7 @@ class Landing extends React.Component {
                         </section>
                     </div>
 
-                    <SimpleFooter/>
+                    <Footer/>
 
                 </main>
             </>

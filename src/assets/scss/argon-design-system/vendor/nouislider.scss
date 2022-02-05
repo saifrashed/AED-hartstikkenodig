@@ -32,25 +32,26 @@
 
 .noUi-connect,
 .noUi-origin {
-  will-change: transform;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  -ms-transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-  -webkit-transform-style: preserve-3d;
-  transform-origin: 0 0;
-  transform-style: flat;
+    will-change: transform;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform-style: preserve-3d;
+    transform-origin: 0 0;
+    transform-style: flat;
 }
 
 .noUi-connect {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 .noUi-origin {
-  height: 10%;
-  width: 10%;
+    height: 10%;
+    width: 10%;
 }
 
 html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
@@ -67,20 +68,20 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 
 .noUi-handle {
-  -webkit-backface-visibility: hidden;
-   backface-visibility: hidden;
-   position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
 }
 
 .noUi-touch-area {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .noUi-state-tap .noUi-connect,
 .noUi-state-tap .noUi-origin {
-  -webkit-transition: transform 0.3s;
-   transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 
 .noUi-state-drag * {
@@ -222,13 +223,13 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 
 .noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
 }
 
 .noUi-rtl .noUi-value-horizontal {
-  -webkit-transform: translate(50%, 50%);
-  transform: translate(50%, 50%);
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
 }
 
 .noUi-marker-horizontal.noUi-marker {
@@ -409,6 +410,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .input-slider--pink.noUi-vertical .noUi-handle {
     background-color: $pink;
 }
+
 /* Disabled state */
 [disabled] .noUi-connect,
 [disabled].noUi-connect {

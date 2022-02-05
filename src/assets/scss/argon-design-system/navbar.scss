@@ -1,9 +1,9 @@
 .navbar {
-  &.navbar-absolute{
-    position: absolute;
-    z-index: 1050;
-    width: 100%;
-  }
+    &.navbar-absolute {
+        position: absolute;
+        z-index: 1050;
+        width: 100%;
+    }
 }
 
 .navbar-nav {
@@ -46,11 +46,11 @@
 }
 
 .navbar-nav {
-  .nav-item {
-    .media:not(:last-child){
-      margin-bottom: 1.5rem;
+    .nav-item {
+        .media:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
     }
-  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -72,6 +72,7 @@
                 }
             }
         }
+
         .nav-link {
             padding-top: $navbar-nav-link-padding-y;
             padding-bottom: $navbar-nav-link-padding-y;
@@ -138,42 +139,43 @@
         }
 
         &.navbar-nav-hover {
-          .dropdown-menu {
-            opacity: 0;
-            display: block;
-            pointer-events: none;
-            transform: translate(0, 10px) perspective(200px) rotateX(-2deg);
-            transition: visibility 0.25s, opacity 0.25s, transform 0.25s;
-            animation: none;
-          }
-
-          .nav-item.dropdown:hover > .dropdown-menu {
-            display: block;
-            opacity: 1;
-            pointer-events: auto;
-            visibility: visible;
-            transform: translate(0, 0);
-            animation: none;
-          }
-
-          .nav-item.dropdown > .dropdown-menu {
-            .dropdown-item.open + .dropdown-menu {
-              display: block;
-              opacity: 1;
-              pointer-events: auto;
-              visibility: visible;
-              transform: translate(0, 0);
-              animation: none;
+            .dropdown-menu {
+                opacity: 0;
+                display: block;
+                pointer-events: none;
+                transform: translate(0, 10px) perspective(200px) rotateX(-2deg);
+                transition: visibility 0.25s, opacity 0.25s, transform 0.25s;
+                animation: none;
             }
-            .dropdown-item + .dropdown-menu {
-              margin-left: 10px;
 
-              &:before {
-                left: -16px;
-                top: 4px;
-              }
+            .nav-item.dropdown:hover > .dropdown-menu {
+                display: block;
+                opacity: 1;
+                pointer-events: auto;
+                visibility: visible;
+                transform: translate(0, 0);
+                animation: none;
             }
-          }
+
+            .nav-item.dropdown > .dropdown-menu {
+                .dropdown-item.open + .dropdown-menu {
+                    display: block;
+                    opacity: 1;
+                    pointer-events: auto;
+                    visibility: visible;
+                    transform: translate(0, 0);
+                    animation: none;
+                }
+
+                .dropdown-item + .dropdown-menu {
+                    margin-left: 10px;
+
+                    &:before {
+                        left: -16px;
+                        top: 4px;
+                    }
+                }
+            }
         }
 
         .dropdown-menu-inner {
@@ -186,32 +188,32 @@
 // Transparent navbar
 
 .navbar-transparent {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  background-color: transparent !important;
-  border: 0;
-  box-shadow: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent !important;
+    border: 0;
+    box-shadow: none;
 
-  .navbar-brand {
-    color: rgba(255, 255, 255, 1);
-  }
+    .navbar-brand {
+        color: rgba(255, 255, 255, 1);
+    }
 
-  .navbar-toggler {
-    color: rgba(255, 255, 255, 1);
-  }
+    .navbar-toggler {
+        color: rgba(255, 255, 255, 1);
+    }
 
-  .navbar-toggler-icon {
-    background-image: $navbar-dark-toggler-icon-bg;
-  }
+    .navbar-toggler-icon {
+        background-image: $navbar-dark-toggler-icon-bg;
+    }
 }
 
 .bg-white {
-  .navbar-toggler-icon {
-    background-image: $navbar-light-toggler-icon-bg
+    .navbar-toggler-icon {
+        background-image: $navbar-light-toggler-icon-bg
 
-  }
+    }
 }
 
 @include media-breakpoint-up(md) {
@@ -334,7 +336,7 @@
         padding: 1.5rem;
         border-radius: $border-radius;
         background: #FFF;
-        box-shadow: 0 50px 100px rgba(50,50,93,.1),0 15px 35px rgba(50,50,93,.15),0 5px 15px rgba(0,0,0,.1);
+        box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
         animation: show-navbar-collapse .2s ease forwards;
     }
 

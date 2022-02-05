@@ -35,7 +35,7 @@
 
 .badge-inline + span > a {
     text-decoration: underline;
-} 
+}
 
 // Sizes
 .badge-md {
@@ -60,6 +60,7 @@
         &:not(:first-child) {
             margin-left: .5rem;
         }
+
         &:not(:last-child) {
             margin-right: .5rem;
         }

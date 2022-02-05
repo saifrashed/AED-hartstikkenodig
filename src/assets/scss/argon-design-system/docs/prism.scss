@@ -48,7 +48,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 
-:not(pre)>code[class*="language-"] {
+:not(pre) > code[class*="language-"] {
     padding: .1em;
     border-radius: .3em;
 }
@@ -146,7 +146,7 @@ pre[class*="language-"] {
     cursor: help;
 }
 
-pre>code.highlight {
+pre > code.highlight {
     outline: 0.4em solid #c94922;
     outline-offset: .4em;
 }
@@ -160,7 +160,7 @@ pre>code.highlight {
     border-right-color: #dfe2f1;
 }
 
-.line-numbers-rows>span:before {
+.line-numbers-rows > span:before {
     color: #979db4;
 }
 

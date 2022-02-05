@@ -4,15 +4,17 @@
 
     &-inline {
         width: 220px;
-    } 
+    }
 
     direction: ltr;
 
     &-rtl {
         direction: rtl;
+
         &.dropdown-menu {
             left: auto;
         }
+
         table tr td span {
             float: right;
         }
@@ -23,7 +25,7 @@
         left: 0;
         padding: $datepicker-dropdown-padding;
         @include box-shadow($dropdown-box-shadow);
-        
+
         // &:before,
         // &:after {
         //     content: '';
@@ -48,18 +50,23 @@
         &.datepicker-orient-left:before {
             left: 6px;
         }
+
         &.datepicker-orient-left:after {
             left: 7px;
         }
+
         &.datepicker-orient-right:before {
             right: 6px;
         }
+
         &.datepicker-orient-right:after {
             right: 7px;
         }
+
         &.datepicker-orient-bottom:before {
             top: -7px;
         }
+
         &.datepicker-orient-bottom:after {
             top: -6px;
         }
@@ -102,14 +109,14 @@
                 font-size: $font-size-sm;
             }
         }
-    } 
+    }
 
     // Inline display inside a table presents some problems with
     // border and background colors.
     .table-striped & table tr {
         td,
         th {
-            background-color: transparent; 
+            background-color: transparent;
         }
     }
 
@@ -148,6 +155,7 @@
 
         &.today {
             background: lighten($datepicker-active-background, 45%);
+
             &.focused {
                 background: lighten($gray-400, 58%);
             }
@@ -157,7 +165,7 @@
                 background: lighten($gray-400, 58%);
                 color: $btn-link-disabled-color;
             }
-        } 
+        }
 
         // Range selection
         &.range {
@@ -274,6 +282,7 @@
     .next,
     tfoot tr th {
         cursor: pointer;
+
         &:hover {
             background: $gray-200;
         }
@@ -284,7 +293,7 @@
         &.disabled {
             visibility: hidden;
         }
-    } 
+    }
 
     // Basic styling for calendar-week cells
     .cw {

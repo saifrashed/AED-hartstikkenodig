@@ -18,15 +18,15 @@
 /*eslint-disable*/
 import React from "react";
 // reactstrap components
-import {Button, Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
+import {Button, Col, Container, Row} from "reactstrap";
 
-class SimpleFooter extends React.Component {
+class Footer extends React.Component {
     render() {
         return (
             <>
-                <footer className=" footer">
+                <footer className="footer">
                     <Container>
-                        <Row className=" row-grid align-items-center mb-5">
+                        <Row className="row-grid align-items-center">
                             <Col lg="6">
                                 <h3 className=" text-success font-weight-light mb-2">
                                     Heeft u vragen?
@@ -52,26 +52,12 @@ class SimpleFooter extends React.Component {
                                     © {new Date().getFullYear()}{" "}
                                     <a
                                         className="text-success"
-                                        href="https://www.creative-tim.com?ref=adsr-footer"
-                                        target="_blank"
-
+                                        href="/"
                                     >
                                         AED HartstikkeNodig
                                     </a>.
 
                                 </div>
-                            </Col>
-                            <Col md="6">
-                                <Nav className=" nav-footer justify-content-end">
-                                    <NavItem>
-                                        <NavLink
-                                            href="https://www.creative-tim.com?ref=adsr-footer"
-                                            target="_blank"
-                                        >
-                                            AED HartstikkeNodig
-                                        </NavLink>
-                                    </NavItem>
-                                </Nav>
                             </Col>
                         </Row>
                     </Container>
@@ -81,4 +67,4 @@ class SimpleFooter extends React.Component {
     }
 }
 
-export default SimpleFooter;
+export default Footer;

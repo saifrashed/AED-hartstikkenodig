@@ -55,7 +55,7 @@ class LandingHeader extends React.Component {
                                     target={"_blank"}
                                     href="https://nl-nl.facebook.com/AEDHarstikkeNodig"
                                 >
-                                    Zie ons op Facebook
+                                    Vind ons op Facebook
                                 </Button>
                             </Col>
                             <Col className="mb-lg-auto" lg="6">

@@ -287,11 +287,11 @@ class Landing extends React.Component {
                                 <Row className="justify-content-center text-center mb-lg">
                                     <Col lg="8">
                                         <h2 className="display-3">Het bestuur.</h2>
-                                        <p className="lead text-muted">
-                                            Sinds de oprichting van de stichting in 2008 wordt het dagelijks bestuur
-                                            gevormd
-                                            door:
-                                        </p>
+                                        {/*<p className="lead text-muted">*/}
+                                            {/*Sinds de oprichting van de stichting in 2008 wordt het dagelijks bestuur*/}
+                                            {/*gevormd*/}
+                                            {/*door:*/}
+                                        {/*</p>*/}
                                     </Col>
                                 </Row>
                                 <Row>
@@ -345,6 +345,38 @@ class Landing extends React.Component {
                                             </div>
                                         </div>
                                     </Col>
+                                    <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                                        <div className="px-4">
+                                            <img
+                                                alt="..."
+                                                className="img-center img-fluid shadow shadow-lg--hover"
+                                                src={require("assets/img/theme/sigrid.jpeg")}
+                                                style={{width: "200px"}}
+                                            />
+                                            <div className="pt-4 text-center">
+                                                <h5 className="title">
+                                                    <span className="d-block mb-1">Sigrid van Petten</span>
+                                                    <small className="h6 text-muted">Bestuurslid</small>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                                        <div className="px-4">
+                                            <img
+                                                alt="..."
+                                                className="img-center img-fluid shadow shadow-lg--hover"
+                                                src={require("assets/img/theme/john.jpeg")}
+                                                style={{width: "200px"}}
+                                            />
+                                            <div className="pt-4 text-center">
+                                                <h5 className="title">
+                                                    <span className="d-block mb-1">John Jansen</span>
+                                                    <small className="h6 text-muted">Bestuurslid</small>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </Col>
                                 </Row>
                                 <Row className="justify-content-center text-center mt-lg">
                                     <Col lg="8">
@@ -357,12 +389,12 @@ class Landing extends React.Component {
                                         >
                                             Klik hier om het artikel over onze nieuwe voorzitter te lezen.
                                         </Button>
-                                        <p className="lead text-muted">
-                                            De toegevoegde bestuursleden zijn: Sigrid van Petten, bestuurslid kwaliteit
-                                            John
-                                            Jansen, bestuurslid techniek Freddy Scherpenzeel, instructeur waaronder
-                                            kinderreanimatie. De instructeurs zijn: Wil van Dam en Freddy
-                                            Scherpenzeel </p>
+                                        {/*<p className="lead text-muted">*/}
+                                            {/*De toegevoegde bestuursleden zijn: Sigrid van Petten, bestuurslid kwaliteit*/}
+                                            {/*John*/}
+                                            {/*Jansen, bestuurslid techniek Freddy Scherpenzeel, instructeur waaronder*/}
+                                            {/*kinderreanimatie. De instructeurs zijn: Wil van Dam en Freddy*/}
+                                            {/*Scherpenzeel </p>*/}
                                     </Col>
                                 </Row>
                             </Container>

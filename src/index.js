@@ -27,6 +27,7 @@ import Landing from "views/Landing.js";
 import Courses from "views/Courses.js";
 import Article from "views/Article.js";
 import Contact from "views/Contact.js";
+import Anbi from "./views/Anbi";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -46,6 +47,12 @@ ReactDOM.render(
                 path="/contact"
                 exact
                 render={props => <Contact {...props} />}
+            />
+
+            <Route
+                path="/anbi"
+                exact
+                render={props => <Anbi {...props} />}
             />
             <Redirect to="/"/>
         </Switch>

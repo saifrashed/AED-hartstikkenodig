@@ -1,7 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 // reactstrap components
-import {CardImg, Col, Container, ListGroup, ListGroupItem, ListGroupItemHeading, Row, Badge, Button} from "reactstrap";
+import {Badge, Button, CardImg, Col, Container, ListGroup, ListGroupItem, ListGroupItemHeading, Row} from "reactstrap";
 // core components
 import ReactGA from "react-ga";
 // index page sections
@@ -61,10 +61,10 @@ class Anbi extends React.Component {
                                             className="btn-1 ml-1"
                                             color="success"
                                             outline
-                                            href={"#"}
+                                            href={require("assets/documents/beleidsplan.pdf")} download
                                             type="button"
                                         >
-                                            Beleidsplan 2022
+                                            Beleidsplan 2022 - 2025
                                         </Button>
                                     </Col>
                                 </Row>
@@ -77,40 +77,44 @@ class Anbi extends React.Component {
                                                     <ListGroupItemHeading>
                                                         Registraties
                                                     </ListGroupItemHeading>
-                                                    <ListGroupItem>KVK: 0000000000</ListGroupItem>
-                                                    <ListGroupItem>BTW: 0000000000</ListGroupItem>
+                                                    <ListGroupItem>KVK: 30242103</ListGroupItem>
+                                                    <ListGroupItem>BTW: 819559416</ListGroupItem>
                                                 </ListGroup>
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col className="mb-5 mb-lg-0" lg="4" md="6">
+                                    <Col className="mb-5 mb-lg-0" lg="3" md="6">
                                         <div className="px-4">
                                             <div className="pt-4 text-center">
                                                 <ListGroup>
                                                     <ListGroupItemHeading>
                                                         Jaarverslagen
                                                     </ListGroupItemHeading>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2022</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2021</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2020</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2019</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2018</Badge></ListGroupItem>
+                                                    <ListGroupItem><a
+                                                        href={require("assets/documents/jaarverslag_2021.pdf")}
+                                                        download>Jaarverslag</a> <Badge
+                                                        pill>2021</Badge></ListGroupItem>
+                                                    <ListGroupItem><a
+                                                        href={require("assets/documents/jaarverslag_2020.pdf")}
+                                                        download>Jaarverslag</a> <Badge
+                                                        pill>2020</Badge></ListGroupItem>
                                                 </ListGroup>
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col className="mb-5 mb-lg-0" lg="4" md="6">
+                                    <Col className="mb-5 mb-lg-0" lg="5" md="6">
                                         <div className="px-4">
                                             <div className="pt-4 text-center">
                                                 <ListGroup>
                                                     <ListGroupItemHeading>
                                                         Financiële verantwoording
                                                     </ListGroupItemHeading>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2022</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2021</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2020</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2019</Badge></ListGroupItem>
-                                                    <ListGroupItem>bestand.pdf <Badge pill>2018</Badge></ListGroupItem>
+                                                    <ListGroupItem><a
+                                                        href={require("assets/documents/financiele_verantwoording_2021.pdf")}
+                                                        download>Financiele Verantwoording</a> <Badge pill>2021</Badge></ListGroupItem>
+                                                    <ListGroupItem><a
+                                                        href={require("assets/documents/financiele_verantwoording_2020.pdf")}
+                                                        download>Financiele Verantwoording</a> <Badge pill>2020</Badge></ListGroupItem>
                                                 </ListGroup>
                                             </div>
                                         </div>
